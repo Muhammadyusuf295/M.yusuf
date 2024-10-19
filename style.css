@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gap-40 {
+ gap: 40px;
+}
+
+header {
+    padding: 21px 0;
+    background: #1F242D;
+    color: #fff;
+}
+
+li a {
+    color: #fff;
+    font-size: 17px;
+}
+
+ li:hover a{
+    color: #00EEFF;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+main {
+    background: #1F242D;
+    height: 100vh;
+    padding-top: 103px;
+    color: #fff;
+}
+
+.titles {
+    width: 437px;
+}
+.titles h3 {
+    font-size: 32px;
+    font-weight: 700
+}
+#main-name {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+#main-position {
+    color: #00EEFF;
+}
+
+.subtitle {
+    width: 600px;
+    margin-top: 21px;
+    margin-bottom: 31px;
+
+}
+
+.links {
+    gap: 17px ;
+    align-items: center;
+}
+
+#main-btn, #about-btn {
+    font-size:16px;
+    font-weight: 600;
+    color: #000;
+    padding: 11px 28px;
+    background: #00EEFF ;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    border-radius: 40px;
+    margin-top: 30px;
+    display: inline-block;
+    border:none;
+
+}
+
+section {
+    background: #323946;
+    color: #fff;
+}
+
+section h2 {
+    font-size: 45px;
+    font-weight: 700
+}
+#me {
+    color: #00EEFF;
+}
+
+.about-position {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 23px;
+    display: inline-block;
+}
+
+.about-info p {
+width: 573px;
+font-size: 16px;
+}
+
+.services {
+    background: #1F242D;
+    padding-top: 102px;
+    height: 100vh;
+}
+
+.about-section {
+    padding-bottom: 106px;
+    padding-top: 181px;
+}
+
+
+.services-title {
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.card {
+    width: 381px;
+    padding: 32px 32px 42px 32px;
+    background: #323946;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    margin-top: 10px;
+  
+}
+
+.projects {
+    
+    background: #323946;
+    padding-top: 102px;
+    padding-bottom: 163px;
+}
+.projects h2 {
+     text-align: center;
+}
+.projects .container {
+    flex-wrap: wrap;
+    row-gap: 25px;
+    margin-top: 40px;
+}
+
+.projects .container a{
+    flex:31%
+}
